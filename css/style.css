@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+body,
+div,
+p,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+form,
+input,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px; }
+
+body {
+  background-color: paleturquoise; }
+  body #container {
+    width: 1170px;
+    margin: 10px auto; }
+    body #container table {
+      width: 100%;
+      border: 1px solid steelblue;
+      border-collapse: collapse; }
+      body #container table tr:nth-child(2n) {
+        background-color: #ddd; }
+      body #container table tr:nth-child(2n+1) {
+        background-color: #eee; }
+      body #container table th {
+        padding: 8px;
+        color: #fff;
+        background-color: steelblue; }
+      body #container table td {
+        padding: 5px;
+        text-align: center;
+        border: 1px solid steelblue; }
+      body #container table input {
+        padding: 3px;
+        border-radius: 5px; }
+      body #container table button {
+        padding: 5px;
+        border-radius: 5px;
+        color: #fff;
+        background-color: steelblue; }
+        body #container table button:hover {
+          background-color: royalblue; }
+
+/*# sourceMappingURL=style.css.map */
